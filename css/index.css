@@ -78,3 +78,49 @@
         margin: 5px 5px 5px 0;
         border-radius: 4px;
     }
+
+  
+    .projects-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .project-item {
+        list-style: none;
+        text-wrap: wrap;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        width: 200px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        background-color: lightcyan;
+    }
+
+    .project-image {
+        scale: 0.5;
+    }
+
+    @media (min-width: 600px) {
+        .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: hotpink;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .container {
+        background-color: aquamarine;
+        }
+    }
+        
+    
+    
